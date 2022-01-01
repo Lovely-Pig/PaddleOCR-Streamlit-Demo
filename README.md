@@ -2,6 +2,31 @@
 
 > 使用Streamlit部署PaddleOCR应用
 
+体验地址：<https://share.streamlit.io/lovely-pig/paddleocr-streamlit-demo/app.py>
+
+## 介绍
+
+1. PaddleOCR
+
+   官网
+
+   - <https://github.com/PaddlePaddle/PaddleOCR>
+
+   官方介绍
+
+   > PaddleOCR旨在打造一套丰富、领先、且实用的OCR工具库，助力开发者训练出更好的模型，并应用落地。
+
+2. Streamlit
+
+   官网
+
+   - <https://streamlit.io>
+   - <https://github.com/streamlit/streamlit>
+
+   官方介绍
+
+   > The fastest way to build and share data apps in Python
+
 ## 开发步骤
 
 注意：请使用Linux系统进行开发（原因：paddleocr的whl包对Windows的支持不太好）
@@ -44,4 +69,18 @@ $ streamlit run app.py
 
 ### 1 将代码仓库上传到GitHub
 
-### 2 
+### 2 所有python库的依赖都写在`requirements.txt`文件里
+
+```tex
+paddleocr>=2.0.1
+paddlepaddle==2.2.1 -i https://mirror.baidu.com/pypi/simple
+opencv-python-headless
+```
+
+### 3 注册Streamlit Cloud
+
+地址：<https://share.streamlit.io>
+
+### 4 新建一个app并关联自己的GitHub仓库
+
+### 5 Congratulation
