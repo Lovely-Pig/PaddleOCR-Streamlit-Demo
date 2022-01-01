@@ -2,9 +2,9 @@
 
 > 使用Streamlit部署PaddleOCR应用
 
-## 部署步骤
+## 开发步骤
 
-注意：请使用Linux系统进行部署（原因：paddleocr的whl包对Windows的支持不太好）
+注意：请使用Linux系统进行开发（原因：paddleocr的whl包对Windows的支持不太好）
 
 ### 1 创建python环境
 
@@ -32,3 +32,16 @@ $ pip install paddlepaddle==2.2.1 -i https://mirror.baidu.com/pypi/simple
 ```sh
 $ streamlit run app.py
 ```
+
+## 部署
+
+部署方式有以下两种
+
+- 服务器部署
+- Streamlit Cloud部署
+
+这里介绍Streamlit Cloud部署，也是本项目的部署方式
+
+### 1 将代码仓库上传到GitHub
+
+### 2 

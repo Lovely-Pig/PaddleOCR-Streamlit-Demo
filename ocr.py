@@ -32,8 +32,8 @@ def recognize(image, output_mode=0):
     txts = [line[1][0] for line in result]
     scores = [line[1][1] for line in result]
     if output_mode == 0:
-        im_show = draw_ocr(image, boxes, txts, scores)
-    elif output_mode == 1:
         im_show = draw_ocr_box_txt(image, boxes, txts, scores)
+    elif output_mode == 1:
+        im_show = draw_ocr(image, boxes, txts, scores)
 
     return im_show
