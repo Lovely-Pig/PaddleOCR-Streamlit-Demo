@@ -2,7 +2,10 @@
 
 > 使用 Streamlit 部署 PaddleOCR 应用
 
-体验地址：<https://share.streamlit.io/lovely-pig/paddleocr-streamlit-demo/app.py>
+体验地址
+
+- <https://share.streamlit.io/lovely-pig/paddleocr-streamlit-demo/app.py>
+- <http://39.106.32.208:8000>
 
 ## 介绍
 
