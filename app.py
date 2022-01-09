@@ -1,7 +1,7 @@
 import streamlit as st
 
 from ocr import detect, recognize
-from utils import bytes_to_numpy, numpy_to_pic
+from utils import bytes_to_numpy
 
 st.write("""
 # PaddleOCR Streamlit Demo
@@ -28,8 +28,7 @@ def main():
             im_show = detect(img)
             st.image(im_show, caption='文本检测后的图片')
         elif option_task == '文本识别':
-            option_mode = st.sidebar.radio('请选择图片输出的模式', (0, 1))
-            im_show = recognize(img, output_mode=option_mode)
+            im_show = recognize(img, output_mode=0)
             st.image(im_show, caption='文本识别后的图片')
 
 

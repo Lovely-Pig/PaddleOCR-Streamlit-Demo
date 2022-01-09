@@ -1,6 +1,6 @@
-# PaddleOCR & Streamlit
+# PaddleOCR Streamlit Demo
 
-> 使用Streamlit部署PaddleOCR应用
+> 使用 Streamlit 部署 PaddleOCR 应用
 
 体验地址：<https://share.streamlit.io/lovely-pig/paddleocr-streamlit-demo/app.py>
 
@@ -25,7 +25,7 @@
 
    官方介绍
 
-   > The fastest way to build and share data apps in Python
+   > The fastest way to build and share data apps in Python.
 
 ## 开发步骤
 
@@ -74,7 +74,13 @@ $ streamlit run app.py
 ```tex
 paddleocr>=2.0.1
 paddlepaddle==2.2.1 -i https://mirror.baidu.com/pypi/simple
-opencv-python-headless
+```
+
+### 3 新建`packages.txt`文件
+
+```tex
+freeglut3-dev
+libgtk2.0-dev
 ```
 
 ### 3 注册Streamlit Cloud
@@ -83,4 +89,4 @@ opencv-python-headless
 
 ### 4 新建一个app并关联自己的GitHub仓库
 
-### 5 Congratulation
+### 5 Congratulation 🎉🎉🎉
